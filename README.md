@@ -1,4 +1,13 @@
-# Getting Started with Create React App
+# Youtube Clone
+
+<p align="center">
+  <img src="https://github.com/victorcmarinho/clone-youtube/blob/master/src/assets/img/youtubeclone1.png" alt="Desktop clone yoube image"/>
+  <img src="https://github.com/victorcmarinho/clone-youtube/blob/master/src/assets/img/youtubeclone2.png" alt="Mobile clone yoube image"/>
+</p>
+
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
