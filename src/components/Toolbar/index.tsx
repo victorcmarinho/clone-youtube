@@ -4,9 +4,6 @@ import {
   Box,
   Button,
   Divider,
-  Drawer,
-  Grid,
-  Hidden,
   List,
   ListItem,
   ListItemIcon,
@@ -15,7 +12,6 @@ import {
   Toolbar as MatToolbar,
   Typography,
 } from '@material-ui/core';
-import { Theme, useTheme } from '@material-ui/core/styles';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import AddCircle from '@material-ui/icons/AddCircle';
 import History from '@material-ui/icons/History';
