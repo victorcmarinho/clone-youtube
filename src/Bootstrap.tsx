@@ -1,13 +1,15 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
-import { useTheme } from '~/hooks/ThemeContext';
+import { ThemeProvider, createMuiTheme } from '@material-ui/core';
 import Routes from 'routers';
+
+import { useTheme } from '~/hooks/ThemeContext';
 
 import Loading from './components/Loading/Loading';
 import { SplashProvider } from './hooks/LoadingContext';
 import GlobalStyles from './styles/global';
-import { ThemeProvider, createMuiTheme } from '@material-ui/core';
+
 const Bootstrap: React.FC = () => {
   const { themeState } = useTheme();
   const theme = createMuiTheme({
